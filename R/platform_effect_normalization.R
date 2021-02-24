@@ -61,7 +61,7 @@ chooseSigma <- function(prediction, counts, Q_mat_all, X_vals, sigma) {
   return(sigma)
 }
 
-#' Estimates sigma_c by maximum likelihood changed argument
+#' Estimates sigma_c by maximum likelihood
 #'
 #' @param RCTD an \code{\linkS4class{RCTD}} object after running the \code{\link{fitBulk}} function.
 #' @return Returns an \code{\linkS4class{RCTD}} with the estimated \code{sigma_c}.
